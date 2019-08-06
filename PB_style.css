@@ -1,0 +1,155 @@
+body{
+	background-image: url(desert.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.settings{
+	position: absolute;
+	background: rgba(0,0,0,.4);
+	width: 400px;
+	height: 735px;
+	z-index: 1;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.settings a{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	left: 36%;
+	top: 50%;
+	font-size: 20px;
+	border: 1px solid #0fc3f5;
+	border-radius: 8px;
+	padding:6px;
+	box-shadow: 0 0 10px #0fc3f5;
+}
+
+.settings a:hover{
+	color: #4442db;
+	text-shadow: 0 0 20px #4442db;
+	border: 1px solid #4442db;
+	box-shadow: 0 0 10px #4442db;
+}
+
+#settings-a{
+	top: 53%;
+	padding-right: 23px;
+}
+
+.photo{
+	position: absolute;
+	color: #fff;
+	z-index: 2;
+	top: 25%;
+	left: 11%;
+}
+
+.photo a{
+	text-decoration: none;
+	color: #0fc3f5;
+}
+
+.photo a:hover{
+	color: #4442db;
+	text-shadow: 0 0 20px #4442db;
+}
+
+.settings-window{
+	position: absolute;
+	left: 28%;
+	background: rgba(60,40,91,.6);
+	width: 60%;
+	height: 735px;
+	display: none;
+	border-radius: 5px;
+}
+
+.settings-window a{
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	left: 98%;
+	top: 1%;
+}
+
+.settings-window a:hover{
+	color: #4442db;
+	text-shadow: 0 0 20px #4442db;
+}
+
+.settings-window input[type="submit"]{
+	position: relative;
+	padding: 10px;
+	left: 48%;
+	transform: translateY(250px);
+	margin-top: 5px;
+	outline: none;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	background: #0fc3f5;
+	transition: .3s;
+	border-radius: 5px;
+}
+
+.settings-window input[type="submit"]:hover{
+	background: #4442db;
+	box-shadow: 0 0 10px #4442db;
+}
+
+.settings-window input[type="submit"]:active{
+	background: blue;
+}
+
+.set-form input{
+	position: relative;
+	padding: 10px;
+	left: 40%;
+	transform: translateY(250px);
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 5px;
+	outline: none;
+	font-size: 15px;
+}
+
+.set-form input[type="text"]:focus, .set-form input[type="email"]:focus, .set-form input[type="password"]:focus{
+	border:1px solid rgb(58,179,250);
+	box-shadow: 0 0 10px rgb(58,179,250);
+}
+
+#back{
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	z-index: 2;
+	left: 20px;
+	top: 15px;
+}
+
+#back:hover{
+	color: #4442db;
+	text-shadow: 0 0 20px #4442db;
+}
+
+#labelForum{
+	display: block;
+	position: absolute;
+	color: #0fc3f5;
+	font-size: 100px;
+	left: 50%;
+	top: 40%;
+	text-shadow: 0 0 20px #0fc3f5;
+}
+
+.set-form-upLabel{
+	color: #fff;
+	position: absolute;
+	left: 35%;
+	top: 10%;
+}

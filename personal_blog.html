@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Personal Blog</title>
+	<link rel="stylesheet" type="text/css" href="PB_style.css">
+	<script type="text/javascript" src="LK.js"></script>
+</head>
+<body>
+	<div class="container">
+		<label class="labelForum" id="labelForum">Forum</label>
+		<div class="photo">
+			<a href="#">Change photo</a>
+		</div>
+		<a href="LK.html" id="back">Back</a>
+		<div class="settings">
+			<a href="#" onclick="setWindow('block')">Edit profile</a><Br>
+			<a href="#" id="settings-a">Your blog</a>
+		</div>
+		<div class="settings-window" id="settings-window">
+			<a href="#" onclick="setWindow('none')">X</a>
+			<span class="set-form-upLabel">Hi, dude. You can edit your profile here.</span>
+			<div class="set-form">
+				<input type="text" placeholder="Login" name="">
+			</div>
+			<div class="set-form">
+				<input type="password" placeholder="Password" name="">
+			</div>
+			<div class="set-form">
+				<input type="email" placeholder="E-mail" name="">
+			</div>
+			<div>
+				<input type="submit" value="save" name="">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
